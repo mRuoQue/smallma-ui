@@ -1,5 +1,5 @@
 ---
-title: Button
+title：  Button
 description：这是Button使用文档
 ---
 
@@ -13,7 +13,7 @@ description：这是Button使用文档
 
 ## 示例
  <script setup>
-    import SmButton from "../../packages/components/button/button.vue"
+    import SmButton from "@/components/button/button.vue"
 
 </script>
 

@@ -1,5 +1,6 @@
-import { DefaultTheme } from "vitepress/theme";
+import DefaultTheme from "vitepress/theme";
 
-import "../../../packages/styles/index.css";
+// 加载全局组件css样式文件
+import "@/styles/index.css";
 
-// export default { DefaultTheme };
+export default DefaultTheme;

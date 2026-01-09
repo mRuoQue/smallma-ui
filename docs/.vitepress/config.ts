@@ -1,7 +1,15 @@
 import { defineConfig } from "vitepress";
-
+import { resolve } from "path";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    resolve: {
+      alias: {
+        "@": resolve(__dirname, "../../packages"),
+        "@components": resolve(__dirname, "../../packages/components"),
+      },
+    },
+  },
   title: "smallUI",
   description: "搭建属于自己的UI库，学习工作成就满满",
   themeConfig: {

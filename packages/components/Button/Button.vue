@@ -24,8 +24,4 @@ withDefaults(defineProps<ButtonProps>(), {
     <span><slot>button</slot></span>
   </button>
 </template>
-<style>
-.sm-button {
-  color: blue;
-}
-</style>
+<style></style>
