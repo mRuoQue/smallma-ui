@@ -114,7 +114,7 @@
   font-size: var(--mf-font-size-base);
   border-radius: var(--mf-border-radius-base);
 }
-.mf-button--mfall {
+.mf-button--small {
   --mf-button-size: 24px;
   height: var(--mf-button-size);
   padding: 5px 11px;

@@ -1,3 +1,4 @@
-import SmButton from "./components/button/index";
+import MfButton from "./components/button/index";
+import MfSwitch from "./components/switch/index";
 
-export default [SmButton];
+export default [MfButton, MfSwitch];
