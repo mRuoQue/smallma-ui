@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 
-import App from "./app.vue";
+import App from "./App.vue";
 
 // 开发测试
 import mafirmUI from "../../packages/index";

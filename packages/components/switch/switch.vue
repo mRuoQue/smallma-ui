@@ -10,9 +10,10 @@
     :id="id"
   >
     <input type="checkbox" role="switch" class="mf-switch-input" />
+    <span class="mf-switch-label" v-if="label">{{ props?.label }}</span>
     <div class="mf-switch-core">
       <div class="mf-switch-core-inner">
-        <span></span>
+        <span> </span>
       </div>
       <div class="mf-switch-core-action"></div>
     </div>
@@ -27,6 +28,7 @@ const props = withDefaults(defineProps<SwitchProps>(), {
   activeValue: true,
   inactiveValue: false,
 });
+
 const innerValue = ref(props.modelValue);
 const emit = defineEmits<SwitchEmits>();
 // 是否处于选中状态

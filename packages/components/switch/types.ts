@@ -15,5 +15,7 @@ export interface SwitchProps {
   inactiveValue?: SwitchValueType;
   id?: string;
   size?: "small" | "large";
+  inlinePrompt?: boolean;
+  label: string;
   onChange?: (value: SwitchValueType) => void;
 }

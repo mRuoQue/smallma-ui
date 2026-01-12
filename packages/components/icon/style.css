@@ -1,0 +1,29 @@
+
+.mf-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* 尺寸类 */
+.mf-icon--small { font-size: 16px; }
+.mf-icon--medium { font-size: 20px; }
+.mf-icon--large { font-size: 24px; }
+.mf-icon--xlarge { font-size: 32px; }
+
+/* 旋转动画 */
+.mf-icon--spin {
+  animation: icon-spin 1s linear infinite;
+}
+
+@keyframes mf-icon-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* 图片适应容器 */
+.mf-icon img {
+  object-fit: contain;
+}

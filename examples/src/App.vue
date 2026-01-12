@@ -12,6 +12,14 @@
   <MfButton round type="info">danger round</MfButton>
 
   <div>Switch:</div>
-  <MfSwitch v-model="value"></MfSwitch>
+  <MfSwitch v-model="value" label="开关:"></MfSwitch>
+
+  <div>Collapse:</div>
+  <MfCollapse>
+    <MfCollapseItem name="1" title="标题1">内容1</MfCollapseItem>
+    <MfCollapseItem name="2" title="标题2">内容2</MfCollapseItem>
+    <MfCollapseItem name="3" title="标题3">内容3333</MfCollapseItem>
+    <MfCollapseItem name="4" title="标题4">内容4</MfCollapseItem>
+  </MfCollapse>
 </template>
 <style></style>
